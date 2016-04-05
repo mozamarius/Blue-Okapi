@@ -1,0 +1,230 @@
+/* style */ 
+
+/* fonts */ 
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham Medium Regular.ttf');
+}
+
+/* general */
+
+.no-padding-lr {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+@media (min-width: 1400px) {
+	  .container {
+		width: 1405px;
+	}
+}
+
+
+/* languages */
+
+.multi-language {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+a.fr img{
+	width: 42px;
+	height: 27px;
+	display: inline-block;
+}
+a.sp img{
+	width: 42px;
+	height: 27px;
+	display: inline-block;
+}
+a.en img{
+	width: 42px;
+	height: 27px;
+	display: inline-block;
+}
+
+/* social-links */
+
+.social-links {
+	position: absolute;
+	right: 30px;
+	top: 90px;
+}
+
+.blue-square {
+	width: 45px;
+	height: 45px;
+	-webkit-border-radius: 50%; 
+	-moz-border-radius: 50%; 
+	border-radius: 50%;
+	background-color:  #51caf8;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.blue-square i {
+    font-size: 20px;
+    margin-top: 13px;
+    color: #ffffff;
+}
+
+.slogan {
+  font-size: 24px;
+  font-family: "Gotham";
+  color: #6c6c6c;
+  -moz-transform: matrix( 0.88875561627923,0,0,0.88875561627923,0,0);
+  -webkit-transform: matrix( 0.88875561627923,0,0,0.88875561627923,0,0);
+  -ms-transform: matrix( 0.88875561627923,0,0,0.88875561627923,0,0);
+}
+
+.divider {
+	background-image: url("../img/divider.png");
+	width: 100%;
+	height: 10px;
+	height: 8px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 38px;
+}
+
+.divider-footer {
+	background-image: url("../img/divider.png");
+	width: 100%;
+	height: 10px;
+	height: 8px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 38px;
+    margin-bottom: 50px;
+}
+
+/* navbar */
+
+@media (min-width: 1400px) {
+	  .navbar-default {
+		width: 1405px;
+	}
+}
+
+@media (max-width: 1400px) {
+	  .navbar-default {
+		width: 1170px;
+	}
+}
+
+.navbar-default {
+	border: 0;
+	height: 60px;
+	background-color: #afafaf;
+	margin: 0 auto;
+	border-radius: 0;
+	margin-top: 55px;
+	margin-bottom: 30px;
+}
+
+.navbar-nav {
+	width: 100%;
+}
+
+.navbar-nav > li {
+	width: 20%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.navbar-nav > li {
+	width: 20%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.navbar-nav >li.active {
+	color: #FFFFFF;
+    background-color: #73b8cf;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 60px;
+	font-family: 'Roboto', sans-serif;
+    -moz-transform: matrix( 0.56149007002944,0,0,0.55552930142003,0,0);
+    -webkit-transform: matrix( 0.56149007002944,0,0,0.55552930142003,0,0);
+    -ms-transform: matrix( 0.56149007002944,0,0,0.55552930142003,0,0);
+}
+
+.navbar-default .navbar-nav>li:hover {
+    color: #FFFFFF;
+    background-color: #73b8cf;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: transparent;
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #ffffff;
+}
+
+/* clients */
+
+.clients {
+	width: 100%;
+	display: block;
+	margin-bottom: 50px;
+	float: left;
+}
+
+.col-10 {
+	width: 10%;
+	float: left;
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+img.grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+img.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.btn-default.references{
+	width: 283px;
+	height: 59px;
+	padding: 0;
+	outline: none;
+	background-color: #afafaf;
+	color: #ffffff;
+	border-radius: 0;
+	padding-left: 15px;
+	text-align: left;
+	margin-bottom: 50px;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+  	text-transform: lowercase;
+  	line-height: 55px;
+}
+
+.btn-default.references > span {
+	top: 7px;
+	left: 10px;
+	font-size: 35px;
+}
