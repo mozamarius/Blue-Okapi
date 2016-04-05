@@ -7,6 +7,11 @@
     src: url('../fonts/Gotham Medium Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Gotham-book';
+    src: url('../fonts/Gotham Book.otf');
+}
+
 /* general */
 
 .no-padding-lr {
@@ -227,4 +232,20 @@ img.grayscale:hover {
 	top: 7px;
 	left: 10px;
 	font-size: 35px;
+}
+
+/* carousel */
+
+.carousel-inner>.item {
+	max-height: 636px;
+}
+
+.title {
+  font-size: 38.489px;
+  font-family: "Gotham-book";
+  -moz-transform: matrix( 0.93698072372567,0,0,0.93534290708829,0,0);
+  -webkit-transform: matrix( 0.93698072372567,0,0,0.93534290708829,0,0);
+  -ms-transform: matrix( 0.93698072372567,0,0,0.93534290708829,0,0);
+  font-weight: 200;
+  margin-top: 57px;
 }
