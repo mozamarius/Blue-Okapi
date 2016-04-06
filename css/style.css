@@ -249,3 +249,64 @@ img.grayscale:hover {
   font-weight: 200;
   margin-top: 57px;
 }
+
+.comment {
+  background-color: rgb(64, 188, 247);
+  width: 569px;
+  height: 76px;
+  outline: none;
+  border: 0;
+  color: #ffffff;
+  border-radius: 0;
+  margin-top: 86px;
+  font-size: 45px;
+  font-family: "Roboto";
+}
+
+.img-grid {
+	margin-top: 104px;
+}
+
+.thumbnail.home-img-grid {
+	padding: 0;
+	border: 0;
+}
+
+.thumbnail.home-img-grid > img {
+	min-height: 248px;
+	max-height: 248px;
+}
+
+.img-title {
+  font-size: 24px;
+  font-family: "Roboto";
+  -moz-transform: matrix( 0.99980382236632,0,0,1.00025528391493,0,0);
+  -webkit-transform: matrix( 0.99980382236632,0,0,1.00025528391493,0,0);
+  -ms-transform: matrix( 0.99980382236632,0,0,1.00025528391493,0,0);
+}
+
+.img-description {
+  font-size: 24px;
+  font-family: "Roboto";
+  color: rgb(160, 160, 160);
+  -moz-transform: matrix( 0.99980382236632,0,0,1.00025528391493,0,0);
+  -webkit-transform: matrix( 0.99980382236632,0,0,1.00025528391493,0,0);
+  -ms-transform: matrix( 0.99980382236632,0,0,1.00025528391493,0,0);
+  max-width: 440px;
+}
+
+.bot-margin {
+	margin-bottom: 70px;
+}
+
+.nos-video {
+  font-size: 30px;
+  font-family: "Roboto";
+  background-color: rgb(64, 188, 247);
+  width: 414px;
+  height: 59px;
+  outline: none;
+  border: 0;
+  margin-top: 70px;
+  border-radius: 0;
+}
