@@ -29,6 +29,10 @@ footer {
 	}
 }
 
+.container-text {
+	width: 1200px;
+	margin: 0 auto;
+}
 
 /* languages */
 
@@ -160,11 +164,8 @@ a.en img{
     color: #FFFFFF;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 60px;
+    font-size: 34px;
 	font-family: 'Roboto', sans-serif;
-    -moz-transform: matrix( 0.56149007002944,0,0,0.55552930142003,0,0);
-    -webkit-transform: matrix( 0.56149007002944,0,0,0.55552930142003,0,0);
-    -ms-transform: matrix( 0.56149007002944,0,0,0.55552930142003,0,0);
 }
 
 .navbar-default .navbar-nav>li:hover {
@@ -197,6 +198,14 @@ a.en img{
 
 .col-10 {
 	width: 10%;
+	float: left;
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-15 {
+	width: 20%;
 	float: left;
 	display: inline-block;
 	padding-right: 15px;
@@ -312,4 +321,48 @@ img.grayscale:hover {
   border: 0;
   margin-top: 70px;
   border-radius: 0;
+}
+
+.vr-btn {
+  background-color: rgb(64, 188, 247);
+  width: 938px;
+  height: 68px;
+  color: #ffffff;
+  outline: none;
+  border: 0;
+  border-radius: 0;
+  margin-top: 65px;
+}
+
+.vr-btn > span {
+  font-size: 43px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  -moz-transform: matrix( 0.49822192186187,0,0,0.50121313566378,0,0);
+  -webkit-transform: matrix( 0.49822192186187,0,0,0.50121313566378,0,0);
+  -ms-transform: matrix( 0.49822192186187,0,0,0.50121313566378,0,0);
+}
+
+.vr-text {
+	font-family: 'Gotham-book';
+	font-size: 31px;
+	margin-top: 66px;
+}
+
+.vr-wrapper {
+	width: 100%;
+	display: block;
+	float: left;
+}
+
+.camera {
+	max-height: 530px;
+}
+
+.serv-margin {
+	margin-top: 45px;
+}
+
+.packshot {
+	margin-top: 66px;
 }
