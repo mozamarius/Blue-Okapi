@@ -19,6 +19,9 @@
 	padding-right: 0;
 }
 
+footer {
+	margin-top: 45px;
+}
 
 @media (min-width: 1400px) {
 	  .container {
