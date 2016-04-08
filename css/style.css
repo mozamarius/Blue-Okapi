@@ -19,6 +19,24 @@
 	padding-right: 0;
 }
 
+.no-padding-l {
+	padding-left: 0;
+}
+
+.no-padding-r {
+	padding-right: 0;
+}
+
+.margin-top-45 {
+	margin-top: 45px;
+}
+.margin-top-90 {
+	margin-top: 90px;
+}
+.margin-top-47 {
+    margin-top: 47px;
+}
+
 footer {
 	margin-top: 45px;
 }
@@ -153,6 +171,10 @@ a.en img{
 	width: 20%;
 	text-align: center;
 	color: #FFFFFF;
+	-webkit-transition: all .3s ease-out;
+    -moz-transition:  all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
 }
 
 .navbar-nav >li.active {
@@ -359,10 +381,73 @@ img.grayscale:hover {
 	max-height: 530px;
 }
 
+/* services */
+
 .serv-margin {
 	margin-top: 45px;
 }
 
 .packshot {
 	margin-top: 66px;
+}
+
+.services {
+	position: relative;
+	margin-top: 80px;
+}
+
+.services-labels {
+	outline: none;
+	background-color: #afafaf;
+	color: #ffffff;
+	border-radius: 0;
+	text-align: left;
+	font-size: 30px;
+	padding: 0px 30px;
+	font-family: 'Roboto', sans-serif;
+  	line-height: 55px;
+  	letter-spacing: 1px;
+  	cursor: inherit;
+  	display: inline-block;
+  	vertical-align: middle;
+}
+
+.dot {
+	display: inline-block;
+	background-color: #afafaf;
+	width: 6px;
+	height: 6px;
+	-webkit-border-radius: 50%; 
+	-moz-border-radius: 50%; 
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-right: 10px; 
+}
+
+.service-title {
+  font-size: 48px;
+  font-family: "Roboto";
+  color: rgb(64, 188, 247);
+  margin-bottom: 40px;
+}
+ 
+.service-list {
+  font-size: 31.489px;
+  font-family: 'Gotham-book';
+  color: rgb(42, 42, 42);
+  margin-bottom: 40px;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li.service-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+img.bullet {
+    margin-right: 20px;
+    margin-bottom: 5px;
 }
